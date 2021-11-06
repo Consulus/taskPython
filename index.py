@@ -61,7 +61,6 @@ def getAuthor():
         for j in result:
             print(j)            
 
-getAuthor()  
     
 
         
