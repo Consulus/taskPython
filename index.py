@@ -50,6 +50,18 @@ def getAuthor():
     reader = csv.reader(file)
     rows = list(reader)
     
+    result = []
+    for i in rows:
+        if i[2] == name:
+            result.append(i)
+        
+    if len(result) == 0:
+        print("Dont have any book of this author")
+    else:
+        for j in result:
+            print(j)            
+
+getAuthor()  
     
 
         
