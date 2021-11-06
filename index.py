@@ -62,7 +62,8 @@ def getAuthor():
             print(j)            
 
     
-
-        
+askToAdd()
+addValueToList()
+getAuthor()        
 
     
